@@ -1,0 +1,937 @@
+[
+  {
+    "text": "The most important decision you make is to be in a good mood",
+    "author": "Voltaire",
+    "color": "sky"
+  },
+  {
+    "text": "You asshole captain, you can't just run over the birds!",
+    "author": "Gzuz",
+    "color": "yellow"
+  },
+  {
+    "text": "Fear doesn't stop death, it stops life",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "A revolution without dancing is a revolution not worth having.",
+    "author": "V for Vendetta",
+    "color": "red"
+  },
+  {
+    "text": "You never hear a crackhead say 'I have no money, guess I can't smoke today.' They always find a way. Be that determined.",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "In the depth of winter, I finally learned that within me there lay an invincible summer.",
+    "author": "Albert Camus",
+    "color": "sky"
+  },
+  {
+    "text": "The Lord is my shepherd, I shall not want.",
+    "author": "Psalm 23:1",
+    "color": "violet"
+  },
+  {
+    "text": "Whoever seeks does not find. Whoever does not seek is found.",
+    "author": "Franz Kafka",
+    "color": "sky"
+  },
+  {
+    "text": "I'm him.",
+    "author": "Unknown",
+    "color": "yellow"
+  },
+  {
+    "text": "To see what is in front of one's nose needs a constant struggle.",
+    "author": "George Orwell",
+    "color": "red"
+  },
+  {
+    "text": "The giant looks in the mirror and sees nothing",
+    "author": "DONDA",
+    "color": "sky"
+  },
+  {
+    "text": "When God sings with his creations, will a turtle not be part of the choir?",
+    "author": "Unknown",
+    "color": "yellow"
+  },
+  {
+    "text": "Escape competition through authenticity.",
+    "author": "Naval Ravikant",
+    "color": "green"
+  },
+  {
+    "text": "Great minds discuss ideas, average minds discuss events, small minds discuss people",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "We are told to remember the idea, not the man, because a man can fail.",
+    "author": "V for Vendetta",
+    "color": "red"
+  },
+  {
+    "text": "Your mind must be stronger than your feelings",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "If an antisocial unemployed man says foreigners are taking his work away, that is like a goldfish saying someone took away his air.",
+    "author": "Anton Horvath",
+    "color": "yellow"
+  },
+  {
+    "text": "Money has to go out the window so it can come back in through the door.",
+    "author": "Karl Lagerfeld",
+    "color": "green"
+  },
+  {
+    "text": "Never work harder than your client.",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "It is better to be feared than loved, if you cannot be both.",
+    "author": "Machiavelli",
+    "color": "red"
+  },
+  {
+    "text": "The essence of being human is that one does not seek perfection.",
+    "author": "George Orwell",
+    "color": "sky"
+  },
+  {
+    "text": "Bull markets make you rich, bear markets make you wealthy",
+    "author": "Unknown",
+    "color": "green"
+  },
+  {
+    "text": "It's easier to ask for forgiveness than for permission",
+    "author": "xQc",
+    "color": "red"
+  },
+  {
+    "text": "You are naught but a nail dreaming itself to be a hammer.",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "I don't want to anymore. I can't anymore. I can't take any of this anymore.",
+    "author": "Sebastian Kurz",
+    "color": "yellow"
+  },
+  {
+    "text": "Past a certain point there is no going back. That is the point to reach.",
+    "author": "Franz Kafka",
+    "color": "sky"
+  },
+  {
+    "text": "No price is too high to pay for the privilege to own yourself",
+    "author": "Unknown",
+    "color": "red"
+  },
+  {
+    "text": "Convenience is our biggest addiction",
+    "author": "Kanye West",
+    "color": "sky"
+  },
+  {
+    "text": "In order to have something you have never had, you have to do something you have never done",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "No man is free who is not master of himself.",
+    "author": "Epictetus",
+    "color": "sky"
+  },
+  {
+    "text": "For you, I died; for me, live",
+    "author": "Jesus",
+    "color": "violet"
+  },
+  {
+    "text": "Facts do not cease to exist because they are ignored.",
+    "author": "Aldous Huxley",
+    "color": "red"
+  },
+  {
+    "text": "A falling knife has no handle.",
+    "author": "Unknown",
+    "color": "green"
+  },
+  {
+    "text": "Man is condemned to be free.",
+    "author": "Jean-Paul Sartre",
+    "color": "sky"
+  },
+  {
+    "text": "There is nothing so permanent as a temporary solution.",
+    "author": "Unknown",
+    "color": "yellow"
+  },
+  {
+    "text": "The crows claim that a single crow could destroy the heavens.",
+    "author": "Franz Kafka",
+    "color": "sky"
+  },
+  {
+    "text": "More people surrender than fail.",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "If you want a picture of the future, imagine a boot stamping on a human face, for ever.",
+    "author": "George Orwell",
+    "color": "red"
+  },
+  {
+    "text": "Is that Candy Crush, Mr Chancellor?",
+    "author": "Jorg Leichtfried",
+    "color": "yellow"
+  },
+  {
+    "text": "A stable life with no prospect is worse than a chaotic adventure that might lead to death",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "The wicked plots against the righteous and gnashes his teeth at him, but the Lord laughs at the wicked, for he sees that his day is coming",
+    "author": "Psalm 37:12-13",
+    "color": "violet"
+  },
+  {
+    "text": "You cannot kill me in any way that matters.",
+    "author": "Unknown",
+    "color": "red"
+  },
+  {
+    "text": "O Lord, make my enemies ridiculous. And God granted it.",
+    "author": "Voltaire",
+    "color": "yellow"
+  },
+  {
+    "text": "Love your rage, not your cage.",
+    "author": "Alan Moore",
+    "color": "red"
+  },
+  {
+    "text": "A fish cannot teach a bird to fly.",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "Had your lunch yet?",
+    "author": "Sebastian Kurz",
+    "color": "yellow"
+  },
+  {
+    "text": "They want my motion, yet try to make me stand still.",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "You will yet be surprised at what is possible.",
+    "author": "Norbert Hofer",
+    "color": "red"
+  },
+  {
+    "text": "No traffic if you make your own lanes.",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "Whatever you do, work at it with all your heart.",
+    "author": "Colossians 3:23",
+    "color": "violet"
+  },
+  {
+    "text": "As long as you're learning, you are not failing",
+    "author": "Bob Ross",
+    "color": "sky"
+  },
+  {
+    "text": "You are in danger of living a life so comfortable and soft that you will die without ever realizing your true potential.",
+    "author": "David Goggins",
+    "color": "orange"
+  },
+  {
+    "text": "I'm a man dying of thirst watching another man drown.",
+    "author": "Krillin",
+    "color": "yellow"
+  },
+  {
+    "text": "Competition is for losers.",
+    "author": "Peter Thiel",
+    "color": "green"
+  },
+  {
+    "text": "Chaos did create the Joker, but did it not also create Batman",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "All animals are equal, but some animals are more equal than others.",
+    "author": "George Orwell",
+    "color": "red"
+  },
+  {
+    "text": "Stop shrinking to fit places you've outgrown",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "Difficulties strengthen the mind, as labour does the body.",
+    "author": "Seneca",
+    "color": "orange"
+  },
+  {
+    "text": "Truth is indivisible, so it cannot know itself. Whoever wants to know it must be a lie.",
+    "author": "Franz Kafka",
+    "color": "sky"
+  },
+  {
+    "text": "I was a wimpy kid, now I got the cheese touch.",
+    "author": "Unknown",
+    "color": "yellow"
+  },
+  {
+    "text": "Beneath this mask there is more than flesh. Beneath this mask there is an idea, and ideas are bulletproof.",
+    "author": "V for Vendetta",
+    "color": "red"
+  },
+  {
+    "text": "Do it or don't do it, you will regret both",
+    "author": "Soren Kierkegaard",
+    "color": "sky"
+  },
+  {
+    "text": "Be the bull that claims the Russian doll for itself.",
+    "author": "Unknown",
+    "color": "yellow"
+  },
+  {
+    "text": "Be a monster, then learn how to control it.",
+    "author": "Jordan Peterson",
+    "color": "orange"
+  },
+  {
+    "text": "It's all love and business",
+    "author": "Kanye West",
+    "color": "green"
+  },
+  {
+    "text": "All problems are nails if your hammer is big enough",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "Until they become conscious they will never rebel, and until after they have rebelled they cannot become conscious.",
+    "author": "George Orwell",
+    "color": "red"
+  },
+  {
+    "text": "You could sooner divert a river from its course than deny my nature.",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "Nah, I'd win.",
+    "author": "Gojo Satoru",
+    "color": "yellow"
+  },
+  {
+    "text": "For even the most banal of deaths can be made tragic by a broken heart.",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "It is dangerous to be right in matters on which the established authorities are wrong.",
+    "author": "Voltaire",
+    "color": "red"
+  },
+  {
+    "text": "You have power over your mind, not outside events",
+    "author": "Marcus Aurelius",
+    "color": "sky"
+  },
+  {
+    "text": "You'll never get rich from labour alone. The only road to wealth is trade.",
+    "author": "A wise Swiss man",
+    "color": "green"
+  },
+  {
+    "text": "Justice is meaningless without freedom.",
+    "author": "Alan Moore",
+    "color": "red"
+  },
+  {
+    "text": "I only lie to confuse the haters.",
+    "author": "Drachenlord",
+    "color": "yellow"
+  },
+  {
+    "text": "Never believe in things that make you weaker",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "Believe in your flyness, conquer your shyness.",
+    "author": "Kanye West",
+    "color": "orange"
+  },
+  {
+    "text": "Our integrity sells for so little, but it is all we really have. It is the very last inch of us. But within that inch, we are free.",
+    "author": "V for Vendetta",
+    "color": "red"
+  },
+  {
+    "text": "The mystery of human existence lies not in just staying alive, but in finding something to live for.",
+    "author": "Fyodor Dostoevsky",
+    "color": "sky"
+  },
+  {
+    "text": "Doesn't have to taste good, just has to work.",
+    "author": "Markus Ruhl",
+    "color": "yellow"
+  },
+  {
+    "text": "In the midst of chaos, there is also opportunity.",
+    "author": "Sun Tzu",
+    "color": "red"
+  },
+  {
+    "text": "Perhaps one did not want to be loved so much as to be understood.",
+    "author": "George Orwell",
+    "color": "sky"
+  },
+  {
+    "text": "You miss 100% of the shots you don't take",
+    "author": "Wayne Gretzky",
+    "color": "orange"
+  },
+  {
+    "text": "No one can live without a lasting trust in something indestructible inside them.",
+    "author": "Franz Kafka",
+    "color": "sky"
+  },
+  {
+    "text": "Take one step in the right direction, and you're halfway there to making the dreams come true",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "Better to run into the knife prepared than to run into it without seeing it.",
+    "author": "Drachenlord",
+    "color": "yellow"
+  },
+  {
+    "text": "You become what you give your attention to",
+    "author": "Epictetus",
+    "color": "sky"
+  },
+  {
+    "text": "If you wanna kill a big dream, tell it to a small-minded person",
+    "author": "Steve Harvey",
+    "color": "orange"
+  },
+  {
+    "text": "The man who sleeps with a machete is a fool every night but one.",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "Stand in the ashes of a trillion dead souls and ask the ghosts if honor matters; the silence is your answer.",
+    "author": "Javik",
+    "color": "red"
+  },
+  {
+    "text": "The struggle itself toward the heights is enough to fill a man's heart.",
+    "author": "Albert Camus",
+    "color": "sky"
+  },
+  {
+    "text": "A Casanova can't play the fiddle.",
+    "author": "Ursprung Buam",
+    "color": "yellow"
+  },
+  {
+    "text": "I shall either find a way or make one.",
+    "author": "Hannibal",
+    "color": "orange"
+  },
+  {
+    "text": "Nothing in life is promised except death.",
+    "author": "Kanye West",
+    "color": "sky"
+  },
+  {
+    "text": "The way I move, you would wonder if I skibidi on this toilet.",
+    "author": "Unknown",
+    "color": "yellow"
+  },
+  {
+    "text": "Freedom is the freedom to say that two plus two make four. If that is granted, all else follows.",
+    "author": "George Orwell",
+    "color": "red"
+  },
+  {
+    "text": "Happiness is the most insidious prison of all.",
+    "author": "Alan Moore",
+    "color": "sky"
+  },
+  {
+    "text": "How big would you dream, if you knew you couldn't fail?",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "In the duel between you and the world, second the world.",
+    "author": "Franz Kafka",
+    "color": "sky"
+  },
+  {
+    "text": "Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away.",
+    "author": "Antoine de Saint-Exupery",
+    "color": "orange"
+  },
+  {
+    "text": "If my grandmother had wheels, she would have been a bike.",
+    "author": "Gino D'Acampo",
+    "color": "yellow"
+  },
+  {
+    "text": "No matter how hard life gets, never touch a cigarette",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "There is no certainty, only opportunity.",
+    "author": "V for Vendetta",
+    "color": "sky"
+  },
+  {
+    "text": "If you've never bloodied your blade, do not speak at the warrior's table.",
+    "author": "Unknown",
+    "color": "red"
+  },
+  {
+    "text": "The hate makes you great",
+    "author": "Kanye West",
+    "color": "orange"
+  },
+  {
+    "text": "Do we no longer admire Moses because other men have since spoken of God?",
+    "author": "Unknown",
+    "color": "violet"
+  },
+  {
+    "text": "I may not agree with what you have to say, but I will defend to the death your right to say it",
+    "author": "Voltaire",
+    "color": "red"
+  },
+  {
+    "text": "It is possible to commit no mistakes and still lose",
+    "author": "Jean-Luc Picard",
+    "color": "sky"
+  },
+  {
+    "text": "In the eyes of the law I committed a great crime, but in the eyes of God, I am amongst him.",
+    "author": "Unknown",
+    "color": "violet"
+  },
+  {
+    "text": "The positive is handed to us. The negative we have to do ourselves.",
+    "author": "Franz Kafka",
+    "color": "sky"
+  },
+  {
+    "text": "If my mom had balls, she'd be my dad.",
+    "author": "Max Verstappen",
+    "color": "yellow"
+  },
+  {
+    "text": "The king moves one square at a time, the queen zips across. But lose the king and it's over, lose the queen and it just gets hard.",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "Sanity is not statistical.",
+    "author": "George Orwell",
+    "color": "red"
+  },
+  {
+    "text": "You must have chaos within you to give birth to a dancing star.",
+    "author": "Friedrich Nietzsche",
+    "color": "sky"
+  },
+  {
+    "text": "The truth sounds crazy in a world full of lies",
+    "author": "Kanye West",
+    "color": "red"
+  },
+  {
+    "text": "If you tell the truth, you don't have to remember anything.",
+    "author": "Mark Twain",
+    "color": "yellow"
+  },
+  {
+    "text": "If you never made an enemy in your life, it's because you never stood for anything.",
+    "author": "Unknown",
+    "color": "red"
+  },
+  {
+    "text": "You can be high up but still be on the ground",
+    "author": "DONDA",
+    "color": "sky"
+  },
+  {
+    "text": "If I had 20 euros, I'd be down at the pub.",
+    "author": "Unknown",
+    "color": "yellow"
+  },
+  {
+    "text": "We suffer more often in imagination than in reality.",
+    "author": "Seneca",
+    "color": "sky"
+  },
+  {
+    "text": "Anarchy wears two faces, both creator and destroyer.",
+    "author": "Alan Moore",
+    "color": "red"
+  },
+  {
+    "text": "If I lay one brick down at a time, who are you to tell me I'm not building a house?",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "Give a man a mask and he will show you his true face",
+    "author": "Oscar Wilde",
+    "color": "sky"
+  },
+  {
+    "text": "So a reformed prisoner is someone who doesn't want to leave the prison?",
+    "author": "Morty",
+    "color": "yellow"
+  },
+  {
+    "text": "The isolated family member is the one who is truly awake",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "I would rather die standing than live kneeling.",
+    "author": "Emiliano Zapata",
+    "color": "red"
+  },
+  {
+    "text": "Give me not what I want, but what I need.",
+    "author": "Markus S.",
+    "color": "violet"
+  },
+  {
+    "text": "You can't just say it, you gotta write it too",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "Play long-term games with long-term people.",
+    "author": "Naval Ravikant",
+    "color": "green"
+  },
+  {
+    "text": "I refuse to accept other people's ideas of happiness for me.",
+    "author": "Kanye West",
+    "color": "sky"
+  },
+  {
+    "text": "I don't ride a motorcycle because it's cool. I ride a motorcycle because I like riding, period. Apart from that, I don't ride a motorcycle.",
+    "author": "Drachenlord",
+    "color": "yellow"
+  },
+  {
+    "text": "In order to achieve inner peace, one must acquire external violence.",
+    "author": "Unknown",
+    "color": "red"
+  },
+  {
+    "text": "Work on the business, not in the business",
+    "author": "Michael Gerber",
+    "color": "green"
+  },
+  {
+    "text": "You have to be willing to be a fool to advance",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "People should not be afraid of their governments. Governments should be afraid of their people.",
+    "author": "V for Vendetta",
+    "color": "red"
+  },
+  {
+    "text": "The child not embraced by the village will burn it down just to feel its warmth",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "If there is no struggle, there is no progress.",
+    "author": "Frederick Douglass",
+    "color": "red"
+  },
+  {
+    "text": "As much weight as possible, and as wrong as possible.",
+    "author": "Markus Ruhl",
+    "color": "yellow"
+  },
+  {
+    "text": "Who controls the past controls the future. Who controls the present controls the past.",
+    "author": "George Orwell",
+    "color": "red"
+  },
+  {
+    "text": "Give, but never expect something in return",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "Only the dead have seen the end of war.",
+    "author": "George Santayana",
+    "color": "red"
+  },
+  {
+    "text": "Pain and suffering are always inevitable for a large intelligence and a deep heart.",
+    "author": "Fyodor Dostoevsky",
+    "color": "sky"
+  },
+  {
+    "text": "If the plan doesn't work, change the plan but never the goal",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "We are what we pretend to be, so we must be careful about what we pretend to be.",
+    "author": "Kurt Vonnegut",
+    "color": "sky"
+  },
+  {
+    "text": "The further society drifts from truth, the more it will hate those that speak it",
+    "author": "Selwyn Duke",
+    "color": "red"
+  },
+  {
+    "text": "The problem is that people get told they can't do something once, and then they actually listen",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "Culture shouldn't exist only for those who can afford it.",
+    "author": "Hakita",
+    "color": "red"
+  },
+  {
+    "text": "She loves Spider-Man, but not Peter Parker.",
+    "author": "Unknown",
+    "color": "yellow"
+  },
+  {
+    "text": "A cage went looking for a bird.",
+    "author": "Franz Kafka",
+    "color": "sky"
+  },
+  {
+    "text": "The purpose of knowledge is action, not knowledge",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "Artists use lies to tell the truth, while politicians use them to cover the truth up.",
+    "author": "V for Vendetta",
+    "color": "red"
+  },
+  {
+    "text": "Embarrassment is the cage of freedom.",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "Bring forth the wine spritzer!",
+    "author": "Michael Haupl",
+    "color": "yellow"
+  },
+  {
+    "text": "Noise is relative to the silence preceding it. The more absolute the hush, the more shocking the thunderclap.",
+    "author": "Alan Moore",
+    "color": "sky"
+  },
+  {
+    "text": "If you're struggling with productivity, give up on perfection",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "Power is not a means; it is an end.",
+    "author": "George Orwell",
+    "color": "red"
+  },
+  {
+    "text": "If I were sober, I'd be a millionaire.",
+    "author": "Julian Sommer",
+    "color": "yellow"
+  },
+  {
+    "text": "Not known, remembered; not seen, recognised.",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "Wealth consists not in having great possessions, but in having few wants.",
+    "author": "Epictetus",
+    "color": "green"
+  },
+  {
+    "text": "Your fear of looking stupid is holding you back.",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "Never interrupt your enemy when he is making a mistake.",
+    "author": "Napoleon",
+    "color": "red"
+  },
+  {
+    "text": "It's easy when everyone puts in an equal amount of work. It gets horrible when someone starts sandbagging.",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "Problems are just thorny opportunities.",
+    "author": "Christian Lindner",
+    "color": "sky"
+  },
+  {
+    "text": "If I worked 22 hours a week, I'd be finished by Tuesday lunchtime.",
+    "author": "Michael Haupl",
+    "color": "yellow"
+  },
+  {
+    "text": "Shoes off, still won't see defeat.",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "The madman is not the man who has lost his reason. The madman is the man who has lost everything except his reason.",
+    "author": "G. K. Chesterton",
+    "color": "sky"
+  },
+  {
+    "text": "Faith means setting free the indestructible in yourself.",
+    "author": "Franz Kafka",
+    "color": "violet"
+  },
+  {
+    "text": "Feelin' like reactor #4.",
+    "author": "Unknown",
+    "color": "yellow"
+  },
+  {
+    "text": "He who fears death will never do anything worthy of a living man.",
+    "author": "Seneca",
+    "color": "sky"
+  },
+  {
+    "text": "You are the only person to make this work, you are the only person to mess this up",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "If liberty means anything at all, it means the right to tell people what they do not want to hear.",
+    "author": "George Orwell",
+    "color": "red"
+  },
+  {
+    "text": "Human suffering is not having choices, and money helps that",
+    "author": "Unknown",
+    "color": "green"
+  },
+  {
+    "text": "Only those who will risk going too far can possibly find out how far one can go",
+    "author": "T. S. Eliot",
+    "color": "orange"
+  },
+  {
+    "text": "My fire was only an illusion. It burnt you, because you thought it was real.",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "There's no such thing as too heavy, only too weak.",
+    "author": "Markus Ruhl",
+    "color": "yellow"
+  },
+  {
+    "text": "You wear a mask for so long, you forget who you were beneath it.",
+    "author": "V for Vendetta",
+    "color": "sky"
+  },
+  {
+    "text": "Doing beats wanting.",
+    "author": "Unknown",
+    "color": "orange"
+  },
+  {
+    "text": "You are the assignment. No student in sight.",
+    "author": "Franz Kafka",
+    "color": "sky"
+  },
+  {
+    "text": "It's better to be a warrior in a garden than a gardener in war",
+    "author": "Unknown",
+    "color": "red"
+  },
+  {
+    "text": "It is not enough to want, one must also do.",
+    "author": "Goethe",
+    "color": "orange"
+  },
+  {
+    "text": "When you're a rare breed, do not expect ordinary people to understand you",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "While they are afraid of us, let them hate as much as they want",
+    "author": "Accius",
+    "color": "red"
+  },
+  {
+    "text": "Whatever. Let's drink beer.",
+    "author": "Unknown",
+    "color": "yellow"
+  },
+  {
+    "text": "A really efficient totalitarian state would be one in which the people love their servitude.",
+    "author": "Aldous Huxley",
+    "color": "red"
+  },
+  {
+    "text": "There is no light without dark, there is no victory without struggle",
+    "author": "Unknown",
+    "color": "sky"
+  },
+  {
+    "text": "Autobiography is only to be trusted when it reveals something disgraceful.",
+    "author": "George Orwell",
+    "color": "yellow"
+  },
+  {
+    "text": "Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
+    "author": "Mark Twain",
+    "color": "red"
+  }
+]
