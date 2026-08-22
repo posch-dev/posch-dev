@@ -1,0 +1,51 @@
+name: panel
+
+on:
+  schedule:
+    # 02:12 in Vienna over summer, 01:12 over winter
+    - cron: "12 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    env:
+      # the header shows my date, not the runner's
+      TZ: Europe/Vienna
+      PANEL: posch-dev_github_profile_banner.svg
+    steps:
+      # no setup-python, the renderer is stdlib only
+      - uses: actions/checkout@v7
+
+      # 60 API calls an hour and IP without a token, and runners share addresses.
+      # Absent on the first run, which the renderer copes with.
+      - name: Restore the cached API answers
+        run: |
+          curl -fsSL -o panel/github.json \
+            "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/panel/github.json" \
+            || echo "no cache yet"
+
+      - name: Render
+        run: python -m panel.render --out "$PANEL"
+
+      # Orphan and force push, so the branch keeps exactly one commit instead of
+      # 365 a year. Authored by the bot to stay off my contribution graph.
+      - name: Publish to the panel branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git checkout --orphan panel-build
+          git rm -rq --cached .
+
+          git add -f "$PANEL"
+          if [ -f panel/github.json ]; then
+            mv panel/github.json github.json
+            git add -f github.json
+          fi
+
+          git commit -m "Rendered $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push --force origin panel-build:panel
