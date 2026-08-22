@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .idea/
+
+# written by every successful render, and by the workflow onto the panel branch
+panel/github.json

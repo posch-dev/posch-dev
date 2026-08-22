@@ -25,7 +25,7 @@ VERSE_MODULE = "(KJV)"
 QUOTE_CMD = "fortune ~/quotes"
 QUOTE_MAX_ROWS = 2
 
-SELF_RENDER_CMD = "python -m panel.render --out panel.svg"
+SELF_RENDER_CMD = "python -m panel.render --out posch-dev_github_profile_banner.svg"
 
 
 ROWS_WITHOUT_TEXT = 4

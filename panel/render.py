@@ -67,7 +67,7 @@ def write_panel(path, markup):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--out", default="panel.svg")
+    ap.add_argument("--out", default="posch-dev_github_profile_banner.svg")
     ap.add_argument("--offline", action="store_true",
                     help="skip every network call and use the cache")
     args = ap.parse_args()
