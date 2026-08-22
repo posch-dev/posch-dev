@@ -25,14 +25,27 @@ C_PURPLE = "#aa3cdc"
 C_PINK = "#ff5ac8"
 
 HEADER_H = GLYPH_H * 2
-HEADER_Y = 4
-FIRST_RULE_Y = 21
+
+HEADER_BLOCK_H = HEADER_H + 1
 
 COMMIT_ROW_H = 12
 COMMIT_H = 2 * COMMIT_ROW_H + GLYPH_H
-COMMIT_Y = FIRST_RULE_Y + 2
-SECOND_RULE_Y = COMMIT_Y + COMMIT_H + 1
 
 SHELL_ROW_H = GLYPH_H
 SHELL_MAX_ROWS = 9
-SHELL_Y = SECOND_RULE_Y + 2
+
+def block_positions(shell_rows):
+    blocks = [HEADER_BLOCK_H, COMMIT_H, shell_rows * SHELL_ROW_H]
+    padding = max((GRID_H - 2 * BORDER - sum(blocks)) // len(blocks), 0)
+    half = padding // 2
+
+    first_rule = BORDER + padding + HEADER_BLOCK_H
+    second_rule = first_rule + padding + COMMIT_H
+    return {
+        "header": BORDER + half + 1,
+        "first_rule": first_rule,
+        "commit": first_rule + half,
+        "second_rule": second_rule,
+        "shell": second_rule + half,
+        "padding": padding,
+    }

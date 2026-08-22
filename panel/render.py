@@ -11,8 +11,7 @@ from panel import header as header_block
 from panel import shell as shell_block
 from panel.canvas import Canvas, Font, draw_border, draw_rule, load_json
 from panel.daily import VERSE_FALLBACK, quote_of_the_day, verse_of_the_day
-from panel.grid import (C_BG, COMMIT_Y, FIRST_RULE_Y, GRID_H, GRID_W, HEADER_Y,
-                        OUT_H, OUT_W, SECOND_RULE_Y, SHELL_MAX_ROWS, SHELL_Y)
+from panel.grid import C_BG, GRID_H, GRID_W, OUT_H, OUT_W, SHELL_MAX_ROWS, block_positions
 
 FONT_FILE = "font.json"
 
@@ -42,15 +41,17 @@ def svg_document(defs, body):
 def build(today, github_data, verse, quote, rng=random):
     font = Font(load_json(FONT_FILE))
     session = shell_block.plan_session(font, verse, quote, rng, SHELL_MAX_ROWS)
+    at = block_positions(session["rows"])
 
     canvas = Canvas()
     draw_border(canvas)
-    header_block.draw(canvas, font, today, github_data, HEADER_Y)
-    draw_rule(canvas, FIRST_RULE_Y)
+    header_block.draw(canvas, font, today, github_data, at["header"])
+    draw_rule(canvas, at["first_rule"])
     commit_bodies, commit_clips = commit_block.draw(
-        canvas, font, github_data.get("commit"), COMMIT_Y)
-    draw_rule(canvas, SECOND_RULE_Y)
-    shell_bodies, shell_clips = shell_block.draw(canvas, font, session, quote, SHELL_Y)
+        canvas, font, github_data.get("commit"), at["commit"])
+    draw_rule(canvas, at["second_rule"])
+    shell_bodies, shell_clips = shell_block.draw(canvas, font, session, quote,
+                                                 at["shell"])
 
     return svg_document(
         "".join(commit_clips + shell_clips),
