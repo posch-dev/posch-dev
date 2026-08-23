@@ -45,7 +45,8 @@ def build(today, github_data, verse, quote, rng=random):
 
     canvas = Canvas()
     draw_border(canvas)
-    header_block.draw(canvas, font, today, github_data, at["header"])
+    header_bodies = header_block.draw(canvas, font, today, github_data,
+                                      at["header"])
     draw_rule(canvas, at["first_rule"])
     commit_bodies, commit_clips = commit_block.draw(
         canvas, font, github_data.get("commit"), at["commit"])
@@ -55,7 +56,7 @@ def build(today, github_data, verse, quote, rng=random):
 
     return svg_document(
         "".join(commit_clips + shell_clips),
-        canvas.to_paths() + "".join(canvas.extra)
+        canvas.to_paths() + "".join(canvas.extra) + "".join(header_bodies)
         + "".join(commit_bodies) + "".join(shell_bodies))
 
 

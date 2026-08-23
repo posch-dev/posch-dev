@@ -18,6 +18,13 @@ def revealed_at(paths, when):
             f'repeatCount="indefinite"/></g>')
 
 
+def alternating(paths, shown_first, period):
+    values = "1;0" if shown_first else "0;1"
+    return (f'<g opacity="{1 if shown_first else 0}">{paths}'
+            f'<animate attributeName="opacity" calcMode="discrete" values="{values}" '
+            f'keyTimes="0;0.5" dur="{period}s" repeatCount="indefinite"/></g>')
+
+
 def scrolling_line(font, clip_id, x, y, box_w, text, colour, scale=1):
     width = font.width(text, scale)
     if width <= box_w:
