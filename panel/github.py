@@ -33,9 +33,9 @@ def fetch_json(url, timeout=10):
         return json.load(response)
 
 
-def or_fallback(call, fallback):
+def or_fallback(call, fallback, *args):
     try:
-        return call()
+        return call(*args)
     except Exception as exc:
         print(f"[warn] {call.__name__}: {exc}", file=sys.stderr)
         return fallback
@@ -94,8 +94,8 @@ def latest_commit(events, repos):
 
     before = push["payload"].get("before")
     if before:
-        commit.update(or_fallback(lambda: push_totals(repo_path, before, head), {}))
-    commit.update(or_fallback(lambda: commit_detail(repo_path, head), {}))
+        commit.update(or_fallback(push_totals, {}, repo_path, before, head))
+    commit.update(or_fallback(commit_detail, {}, repo_path, head))
     return commit
 
 

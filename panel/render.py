@@ -20,7 +20,7 @@ def gather_github(offline=False):
     if not offline:
         data = github.or_fallback(github.fetch_panel_data, None)
         if data is not None:
-            github.or_fallback(lambda: github.write_cache(data), None)
+            github.or_fallback(github.write_cache, None, data)
             return data
 
     cached = github.read_cache()
