@@ -28,7 +28,7 @@ QUOTE_MAX_ROWS = 2
 SELF_RENDER_CMD = "python -m panel.render --out posch-dev_github_profile_banner.svg"
 
 
-ROWS_WITHOUT_TEXT = 4
+ROWS_WITHOUT_TEXT = 3
 
 C_VERSE = "#a86ee6"
 C_VERSE_REF = "#e0a53c"
@@ -57,7 +57,8 @@ def draw_prompt(canvas, font, x, y):
 
 
 def verse_lines(font, verse, rows):
-    return wrap(font, VERSE_TAG.format(verse["ref"]) + verse["text"], WIDTH, rows)
+    text = VERSE_TAG.format(verse["ref"]) + verse["text"] + " " + VERSE_MODULE
+    return wrap(font, text, WIDTH, rows)
 
 
 def verse_fits(font, verse, rows):
@@ -117,7 +118,10 @@ class Session:
             if self.row >= len(self.rows):
                 break
             if i == len(lines) - 1:
-                line = truncate(self.font, line, WIDTH)
+                # a cut last line keeps its tail, so the dim marker never gets mangled
+                keep = tail if tail and line.endswith(tail) else ""
+                line = truncate(self.font, line[:len(line) - len(keep)],
+                                WIDTH - self.font.width(keep)) + keep
 
             y = self.rows[self.row]
             x = self.x
@@ -148,8 +152,8 @@ def draw(canvas, font, shell_plan, quote, y):
 
     session.command(VERSE_CMD.format(verse["ref"]))
     session.output(shell_plan["verse_lines"], C_VERSE,
-                   head=(VERSE_TAG.format(verse["ref"]), C_VERSE_REF), pause_after=0)
-    session.output([VERSE_MODULE], C_DIM, delay=0)
+                   head=(VERSE_TAG.format(verse["ref"]), C_VERSE_REF),
+                   tail=VERSE_MODULE)
 
     session.command(QUOTE_CMD)
     session.output(shell_plan["quote_lines"],
