@@ -14,7 +14,7 @@ CACHE_FILE = "github.json"
 
 SHORT_NAMES = {
     "minecraft-wake-on-demand": "MCWOD",
-    "smart-pixel-dashboard": "SPD",
+    "smart-pixel-display": "SPD",
     "mq-dispatcher": "MQD",
     "apple-shortcuts": "ShortX",
     "snapxo": "SnapXO",
