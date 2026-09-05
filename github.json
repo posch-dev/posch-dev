@@ -1,0 +1,32 @@
+{
+  "fetched_at": "2026-09-05T04:20:19Z",
+  "github": {
+    "stars": 4,
+    "commit": {
+      "repo": "minecraft-wake-on-demand",
+      "branch": "main",
+      "sha": "1bed332",
+      "pushed": "2026-08-30T21:04:53Z",
+      "language": "Go",
+      "repo_stars": 1,
+      "issues": 2,
+      "message": "fix: build the unix half of the package split",
+      "added": 11,
+      "removed": 8,
+      "files": 3,
+      "names": [
+        "install_unix.go",
+        "color.go",
+        "main.go"
+      ],
+      "pushed_commits": 1,
+      "push_added": 11,
+      "push_removed": 8
+    },
+    "release": {
+      "repo": "minecraft-wake-on-demand",
+      "tag": "v2.1.0",
+      "published_at": "2026-08-30T21:34:22Z"
+    }
+  }
+}
