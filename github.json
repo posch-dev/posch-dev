@@ -1,0 +1,31 @@
+{
+  "fetched_at": "2026-09-15T04:48:28Z",
+  "github": {
+    "stars": 4,
+    "commit": {
+      "repo": "snapxo",
+      "branch": "main",
+      "sha": "31b4306",
+      "pushed": "2026-09-13T22:04:23Z",
+      "language": "Python",
+      "repo_stars": 0,
+      "issues": 0,
+      "message": "chore: release 2.1.0",
+      "added": 46,
+      "removed": 1,
+      "files": 2,
+      "names": [
+        "CHANGELOG.md",
+        "__init__.py"
+      ],
+      "pushed_commits": 13,
+      "push_added": 1161,
+      "push_removed": 109
+    },
+    "release": {
+      "repo": "snapxo",
+      "tag": "v2.1.0",
+      "published_at": "2026-09-13T22:07:52Z"
+    }
+  }
+}
