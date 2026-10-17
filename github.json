@@ -1,0 +1,12 @@
+{
+  "fetched_at": "2026-10-17T04:17:56Z",
+  "github": {
+    "stars": 4,
+    "commit": null,
+    "release": {
+      "repo": "desert-dungeon",
+      "tag": "v1.0.0",
+      "published_at": "2026-09-25T19:17:55Z"
+    }
+  }
+}
