@@ -1,0 +1,30 @@
+{
+  "fetched_at": "2026-11-21T06:58:00Z",
+  "github": {
+    "stars": 5,
+    "commit": {
+      "repo": "SC-sensorik",
+      "branch": "main",
+      "sha": "2b4ace4",
+      "pushed": "2026-11-20T08:21:29Z",
+      "language": "",
+      "repo_stars": 0,
+      "issues": 0,
+      "message": "chore: add hyperlink to planned architecture",
+      "added": 3,
+      "removed": 1,
+      "files": 1,
+      "names": [
+        "README.md"
+      ],
+      "pushed_commits": 1,
+      "push_added": 3,
+      "push_removed": 1
+    },
+    "release": {
+      "repo": "desert-dungeon",
+      "tag": "v1.0.0",
+      "published_at": "2026-09-25T19:17:55Z"
+    }
+  }
+}
