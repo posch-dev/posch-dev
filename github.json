@@ -1,0 +1,30 @@
+{
+  "fetched_at": "2026-11-28T07:38:28Z",
+  "github": {
+    "stars": 5,
+    "commit": {
+      "repo": "SC-webpage",
+      "branch": "main",
+      "sha": "dd2655f",
+      "pushed": "2026-11-20T20:31:56Z",
+      "language": "",
+      "repo_stars": 0,
+      "issues": 0,
+      "message": "chore: add hyperlink to planned architecture",
+      "added": 2,
+      "removed": 0,
+      "files": 1,
+      "names": [
+        "README.md"
+      ],
+      "pushed_commits": 1,
+      "push_added": 2,
+      "push_removed": 0
+    },
+    "release": {
+      "repo": "desert-dungeon",
+      "tag": "v1.0.0",
+      "published_at": "2026-09-25T19:17:55Z"
+    }
+  }
+}
